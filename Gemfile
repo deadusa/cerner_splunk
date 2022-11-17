@@ -17,7 +17,7 @@ chef_version = if Bundler.current_ruby.on_25?
                elsif Bundler.current_ruby.on_26?
                  '= 15.8.23'
                else
-                 '= 16.17.18'
+                 '= 17.10.3'
                end
 
 gem 'berkshelf'
